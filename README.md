@@ -2,7 +2,11 @@
 
 Tailwindcss plugin to make skeleton screen easier than ever.
 
-[Live Demo](https://jsfiddle.com)
+![npm (scoped)](https://img.shields.io/npm/v/@gradin/tailwindcss-skeleton-screen)
+![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@gradin/tailwindcss-skeleton-screen)
+![npm](https://img.shields.io/npm/dw/@gradin/tailwindcss-skeleton-screen)
+
+[Live Demo](https://play.tailwindcss.com/pvcsIiczqb)
 
 ## Installation
 
@@ -22,7 +26,7 @@ module.exports = {
     // ...
   },
   plugins: [
-    require('@gradints/tailwindcss-skeleton-screen'),
+    require('@gradin/tailwindcss-skeleton-screen'),
     // ...
   ],
 }
