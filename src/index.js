@@ -32,21 +32,3 @@ module.exports = plugin(
     ])
   }
 )
-
-// .loading {
-//   @apply bg-gray-300 overflow-hidden relative;
-//   &::after {
-//     @apply block absolute h-full top-0 -left-40 w-40;
-//     content: '';
-//     background: linear-gradient(to right, transparent 0%, #E8E8E8 50%, transparent 100%);
-//     animation: skeletonloading 1s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
-//   }
-// }
-// @keyframes skeletonloading {
-//   from {
-//     @apply -left-40;
-//   }
-//   to   {
-//     @apply left-full;
-//   }
-// }

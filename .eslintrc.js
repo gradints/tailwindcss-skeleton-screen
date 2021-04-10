@@ -24,7 +24,4 @@ module.exports = {
     'space-infix-ops': ['warn'],
     'space-in-parens': ['warn', 'never'],
   },
-  globals: {
-    process: true,
-  },
 }

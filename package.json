@@ -3,13 +3,13 @@
   "version": "0.0.1",
   "description": "Tailwindcss plugin to make skeleton screen easier than ever.",
   "main": "src/index.js",
-  "scripts": {
-    "prepublishOnly": "node scripts/build.js",
-    "test": "jest"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gradints/tailwindcss-skeleton-screen.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "tailwind",
@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/gradints/tailwindcss-skeleton-screen#readme",
   "devDependencies": {
-    "clean-css": "^5.1.2",
     "eslint": "^7.24.0",
     "tailwindcss": "^2.1.1"
   }
