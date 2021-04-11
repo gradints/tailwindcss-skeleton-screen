@@ -6,7 +6,7 @@ Tailwindcss plugin to make skeleton screen easier than ever.
 ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@gradin/tailwindcss-skeleton-screen)
 ![npm](https://img.shields.io/npm/dw/@gradin/tailwindcss-skeleton-screen)
 
-[Live Demo](https://play.tailwindcss.com/YSl180l7et)
+[Live Demo](https://play.tailwindcss.com/dcAoaNpFYu)
 
 ## Installation
 
@@ -25,8 +25,58 @@ module.exports = {
   theme: {
     // ...
   },
+
   plugins: [
     require('@gradin/tailwindcss-skeleton-screen'),
   ],
+
+}
+```
+
+## Customization
+
+You can change the color and animation via `theme` settings.
+
+The object keys will be appended to the end of the `.loading` class.
+The base `.loading` class can be configured by `DEFAULT` key.
+
+```js
+module.exports = {
+  theme: {
+    skeletonScreen: {
+      DEFAULT: { // .loading
+        baseColor: '#c7c7c7',
+        movingColor: 'linear-gradient(to right, transparent 0%, #E8E8E8 50%, transparent 100%)',
+        duration: '1s',
+        timing: 'cubic-bezier(0.4, 0.0, 0.2, 1)',
+      },
+      // specify another color to have multiple loading colors.
+      blue: { // .loading-blue
+        baseColor: 'blue',
+        movingColor: 'linear-gradient(to right, transparent 0%, lightblue 50%, transparent 100%)',
+        duration: '.3s',
+        timing: 'ease',
+      },
+    },
+  },
+}
+```
+
+Or you can use `theme.extend` to add another color in addition to the default.
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      skeletonScreen: {
+        red: { // .loading-red
+          baseColor: 'red',
+          movingColor: 'pink',
+          duration: '3s',
+          timing: 'ease',
+        },
+      },
+    },
+  },
 }
 ```

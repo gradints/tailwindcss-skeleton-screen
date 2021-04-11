@@ -4,6 +4,9 @@ module.exports = {
     browser: true,
     es6: true,
   },
+  parserOptions: {
+    ecmaVersion: 2018,
+  },
   rules: {
     'brace-style': 'warn', // [1tbs default, stroustrup, allman]
     'comma-dangle': ['warn', 'always-multiline'],
