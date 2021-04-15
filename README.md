@@ -2,7 +2,7 @@
 
 Tailwindcss plugin to make skeleton screen easier than ever.
 
-![npm (scoped)](https://img.shields.io/npm/v/@gradin/tailwindcss-skeleton-screen)
+[![npm (scoped)](https://img.shields.io/npm/v/@gradin/tailwindcss-skeleton-screen)](https://www.npmjs.com/package/@gradin/tailwindcss-skeleton-screen)
 ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@gradin/tailwindcss-skeleton-screen)
 ![npm](https://img.shields.io/npm/dw/@gradin/tailwindcss-skeleton-screen)
 
