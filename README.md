@@ -33,7 +33,7 @@ module.exports = {
 }
 ```
 
-## Customization
+## Configuration
 
 You can change the color and animation via `theme` settings.
 
@@ -77,6 +77,23 @@ module.exports = {
         },
       },
     },
+  },
+}
+```
+
+If you want to use colors from your theme. You can do it like this. Learn more about this [here](https://tailwindcss.com/docs/theme#referencing-other-values).
+
+```js
+module.exports = {
+  theme: {
+    skeletonScreen: theme => ({
+      DEFAULT: {
+        baseColor: theme('colors.gray.300'),
+        movingColor: 'linear-gradient(to right, transparent 0%, ' + theme('colors.gray.50') + ' 50%, transparent 100%)',
+        duration: '1s',
+        timing: 'ease',
+      },
+    }),
   },
 }
 ```
