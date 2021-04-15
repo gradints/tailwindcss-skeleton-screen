@@ -1,6 +1,6 @@
 {
   "name": "@gradin/tailwindcss-skeleton-screen",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tailwindcss plugin to make skeleton screen easier than ever.",
   "main": "src/index.js",
   "scripts": {},
