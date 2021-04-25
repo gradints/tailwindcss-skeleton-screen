@@ -1,7 +1,7 @@
 {
   "name": "@gradin/tailwindcss-skeleton-screen",
-  "version": "0.1.1",
-  "description": "Tailwindcss plugin to make skeleton screen easier than ever.",
+  "version": "1.0.0",
+  "description": "Tailwindcss plugin to make skeleton screen.",
   "main": "src/index.js",
   "scripts": {},
   "repository": {
@@ -15,8 +15,7 @@
     "tailwind",
     "tailwindcss",
     "skeleton screen",
-    "loading",
-    "animation"
+    "loading"
   ],
   "author": "Christhofer",
   "license": "MIT",
@@ -25,7 +24,7 @@
   },
   "homepage": "https://github.com/gradints/tailwindcss-skeleton-screen#readme",
   "devDependencies": {
-    "eslint": "^7.24.0",
-    "tailwindcss": "^2.1.1"
+    "eslint": "^7.25.0",
+    "tailwindcss": "^2.1.2"
   }
 }
